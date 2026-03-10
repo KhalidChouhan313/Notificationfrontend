@@ -19,11 +19,11 @@
             "outputPath": "dist/alert-notification",
             "browser": "src/main.ts",
             "tsConfig": "tsconfig.app.json",
-            "assets": [
- "src/favicon.ico",
-      "src/assets",
-      "src/sw.js"
-            ],
+           "assets": [
+  "src/favicon.ico",
+  "src/assets",
+  "src/sw.js"
+],
             "styles": [
               "src/styles.css"
             ]

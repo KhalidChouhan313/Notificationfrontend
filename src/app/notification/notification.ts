@@ -24,7 +24,7 @@ export class NotificationComponent {
     try {
       this.loading = true; 
 
-      const registration = await navigator.serviceWorker.register('/sw.js');
+      const registration = await navigator.serviceWorker.register('assets/sw.js');
       await navigator.serviceWorker.ready;
 
       const subscription = await registration.pushManager.subscribe({
