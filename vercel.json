@@ -1,5 +1,8 @@
 {
   "buildCommand": "npm run vercel-build",
   "outputDirectory": "dist/alert-notification",
-  "framework": "angular"
+  "framework": "angular",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
 }
